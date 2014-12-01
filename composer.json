@@ -3,6 +3,7 @@
     "description": "This provides a laravel service provider for the NeverBounceAPI PHP bindings",
     "keywords": ["laravel", "email", "validation", "verification", "email validation"],
     "homepage": "https://neverbounce.com",
+    "license": "MIT",
     "authors": [
         {
             "name": "Mike Mollick",
