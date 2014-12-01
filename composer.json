@@ -1,6 +1,8 @@
 {
     "name": "neverbounce/neverbounce-laravel",
-    "description": "",
+    "description": "This provides a laravel service provider for the NeverBounceAPI PHP bindings",
+    "keywords": ["laravel", "email", "validation", "verification", "email validation"],
+    "homepage": "https://neverbounce.com",
     "authors": [
         {
             "name": "Mike Mollick",
