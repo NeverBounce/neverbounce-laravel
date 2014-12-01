@@ -17,7 +17,7 @@
             "src/migrations"
         ],
         "psr-0": {
-            "Neverbounce\\NeverbounceLaravel\\": "src/"
+            "NeverBounce\\Laravel\\": "src/"
         }
     },
     "minimum-stability": "stable"
