@@ -1,4 +1,4 @@
-<?php namespace NeverBounce\Laravel;
+<?php namespace NeverBounce\NeverBounceLaravel;
 
 use Illuminate\Support\ServiceProvider;
 use NeverBounce\API\NB_Auth;
