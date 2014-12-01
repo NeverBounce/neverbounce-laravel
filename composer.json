@@ -1,0 +1,24 @@
+{
+    "name": "neverbounce/neverbounce-laravel",
+    "description": "",
+    "authors": [
+        {
+            "name": "Mike Mollick",
+            "email": "mike@creavos.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "illuminate/support": "4.2.*",
+        "neverbounce/neverbounce-php": "1.1.*"
+    },
+    "autoload": {
+        "classmap": [
+            "src/migrations"
+        ],
+        "psr-0": {
+            "Neverbounce\\NeverbounceLaravel\\": "src/"
+        }
+    },
+    "minimum-stability": "stable"
+}
