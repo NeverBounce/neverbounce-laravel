@@ -22,8 +22,8 @@ class NeverBounceServiceProvider extends ServiceProvider {
 		$this->package('neverbounce/neverbounce-laravel');
 
 		NB_Auth::auth(
-			(isset($_ENV['neverbounce.secretKey'])) ?: null,
-			(isset($_ENV['neverbounce.appID'])) ?: null
+			(isset($_ENV['neverbounce.secretKey'])) ? $_ENV['neverbounce.secretKey'] : null,
+			(isset($_ENV['neverbounce.appID'])) ? $_ENV['neverbounce.appID'] : null
 		);
 
 		if(isset($_ENV['neverbounce.api'])) {
